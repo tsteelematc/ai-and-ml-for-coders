@@ -5,3 +5,4 @@ share/*
 .DS_Store
 .venv/*
 horse-or-human**
+validation-horse-or-human.zip
