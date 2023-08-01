@@ -3398,3 +3398,6 @@ Tue Aug  1 18:23:07 2023
    68  CUDNN_PATH=$(dirname $(python -c "import nvidia.cudnn;print(nvidia.cudnn.__file__)"))
    69  export LD_LIBRARY_PATH=$CONDA_PREFIX/lib/:$CUDNN_PATH/lib:$LD_LIBRARY_PATH
    70  history
+   73  git config --global --add user.name tsteelematc
+   74  git config --global --add user.email tsteele@madisoncollege.edu
+
